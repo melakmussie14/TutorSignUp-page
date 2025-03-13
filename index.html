@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up for personalized tutoring sessions. Get expert help in various subjects!">
+    <meta name="keywords" content="tutoring, online tutoring, study help, academic coaching">
+    <meta name="author" content="Your Name">
+    <title>Tutoring Sign-Up | Get Expert Help</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Academic Tutoring Winnipeg </h1>
+        <h2>Sign Up for Tutoring</h2>
+        <p>Get personalized tutoring from expert instructors.</p>
+    </header>
+ <section class="features">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>✅ Expert tutors in various subjects</li>
+            <li>✅ Flexible scheduling</li>
+            <li> ✅ In Person and On-line Sessions </li>
+            <li>✅ Personalized learning plans</li>
+            <li>✅ Affordable pricing</li>
+        </ul>
+    </section>
+    <section class="signup">
+        <h2>Register for a Session</h2>
+       <iframe id="googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfYzEqWFgI3xQhPD-GKILruyqjlrYxKo_EbJAaXYQ9FwTr_fg/viewform?embedded=true" width="640" height="690" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<script>
+    document.getElementById("googleForm").onload = function() {
+        setTimeout(() => {
+            window.location.href = "thank-you.html";
+        }, 300000); // Redirect after 3 seconds
+    };
+</script>
+    </section>
+<div id="loadingMessage" style="display:none;">Submitting your form...</div>
+
+   
+
+    <footer>
+        <p>&copy; 2025 Tutoring Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

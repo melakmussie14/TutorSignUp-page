@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.signup {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.features {
+    margin: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
